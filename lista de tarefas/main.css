@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:roboto,sans-serif;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2px solid black;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    
+    margin-bottom: 30px;
+    width: 100%;
+   
+}
+h1{
+    padding: 30px;
+    font-size: 2.5em;
+    
+}
+#input_tarefa{
+    padding: 16px;
+    font-size: 1.2em;
+    width: 300px;
+}
+#btn_cadastrar{
+    padding: 16px;
+    font-size: 1.2em;
+    font-weight: bolder;
+   
+}
+
+.feito{
+    text-decoration: line-through
+}
