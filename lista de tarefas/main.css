@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Roboto','sans-serif';
+    font-family: 'Roboto','sans-serif';
 }
 
 body{
@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 2px solid black;
+    margin: 0;
     
 }
 div{

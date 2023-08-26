@@ -7,11 +7,9 @@ $(document).ready(function(){
         novoitem.appendTo('ul')
 
         
-        $('.li').click(function(e){
-            console.log(e.target)
-            //$(e.target).toggle('.feito')
-            $(this).addClass("feito")
-        })
+        $('ul').on('click', 'li', function() {
+            $(this).toggleClass('feito');
+          });
     })
    
 })
